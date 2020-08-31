@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="images/logo1.png">
+    <title>Paradefi - Make Defi Simple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./carousel/carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body onload="crawlData()">
+    <div class="app">
+        <!-- navbar -->
+
+        <header class="bg-white">
+            <nav class="px-navbar">
+                <div class="h-100">
+                    <div class="h-100 flex-center justify-content-between align-items-center">
+                        <div class="col-lg-2 pl-0 col-5 d-flex align-items-center">
+                            <div class="">
+                                <!-- <div class="wrapper-logo">
+                                    <img src="/images/logo2.png" alt="" />
+                                </div> -->
+                            </div>
+                            <div class="col-8 fwb">
+                                <div class="wrapper-logo">
+                                    <img src="/images/logo22.png" alt="" style="width: auto;" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-7 d-lg-flex d-none justify-content-between wrapper-price">
+                            <div class="price1">
+                                <div>
+                                    <strong class="fw-400 text-capitalize">
+                      Value locked
+                    </strong> =
+                                    <strong class="fw-400" id="coin-1">
+                      <span class="fw-100">$</span>
+                    </strong>
+                                </div>
+                            </div>
+                            <div class="price1">
+                                <div>
+                                    <strong class="fw-400 text-capitalize">
+                      Maker Dominance
+                    </strong> =
+                                    <strong class="fw-400" id="coin-2"> </strong>
+                                </div>
+                            </div>
+                            <div class="price1">
+                                <div>
+                                    <strong class="fw-400 text-capitalize">
+                      Active project
+                    </strong> =
+                                    <strong class="fw-400"> 36</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="redirect-app col-xl-2 col-lg-3 text-right col-7 pr-0">
+                            <div class="d-flex align-items-center text-uppercase justify-content-lg-between justify-content-end">
+                                <div class="col-lg-0 col-6 text-right">
+                                    <button class="btn btn-hover app-btn bg-root text-white">
+                                      <a href="https://app.paradefi.network" style="color: #fff; text-decoration: none;">App</a>
+                                    </button>
+                                </div>
+                                <div class="col-lg-0 ml-lg-2 ml-0 col-6 text-right">
+                                    <button class="btn btn-hover app-btn bg-root text-white">
+                                      <a href="https://curve.paradefi.network" style="color: #fff; text-decoration: none;">Curve</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- end navbar -->
+        <article class="body">
+            <section class="section1">
+                <div class="wrapper-content container">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="ds-content text-dark animate__animated animate__backInDown" id="box-top">
+                                Paradefi
+                                <span class="cl-root">
+                                    the money market management protocol
+                                </span> on Defi ecology
+                                <span class="cl-root">
+                                    focusing on Lending, Fiat Liquidity, and Governance
+                                </span> with highest-level security and performance
+                            </div>
+                        </div>
+                        <div class="col-5 animate__animated animate__backInDown">
+                            <img src="/images/header-image-blue.png" alt="Paradefi" style="width: '100%'; height: auto">
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="section2 py-5 text-white" style="background: linear-gradient(0deg, #97def8 0%, #0b67fd 100%);" >
+                <div class="px-center">
+                    <h3>OUR VISION</h3>
+                    <h1 class="fwb">The Paradefi Main Features</h1>
+                    <p>
+                        Paradefi makes it easier than any existing Defi to enter the world of decentralized finance
+                        <br /> Decentralization focuses on user privacy, anonymity, and benefit. This is the core values of decentralization
+                        <br />
+                    </p>
+                    <h2 class="text-center py-2">
+                        <span class="hover-text">
+                Paradefi has 5 main key features
+                        </span>
+                    </h2>
+                    <!-- carousel slider -->
+
+                    <div class="row">
+                        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                            <div class="MultiCarousel-inner">
+                                <div class="item">
+                                    <div class="box px-md-0 px-2">
+                                        <div class="col-12 box-content-slider">
+                                            <h6 class="hover-text"><b>Defi Privacy</b></h6>
+                                            <div class="box-content hover-text">
+                                                We integrate Chainlink's Oracle Solution to bring real-world data into the Paradefi ecosystem and connect to the traditional gateway system.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="box px-md-0 px-2">
+                                        <div class="col-12 box-content-slider">
+                                            <h6 class="hover-text"><b>Decentralized Governance</b></h6>
+                                            <div class="box-content hover-text">
+                                                Paradefi token holders soon will have the right to governance. As a result, they make the Paradefi a better place by contributing to the design & upgrade of the ecology
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="box px-md-0 px-2">
+                                        <div class="col-12 box-content-slider">
+                                            <h6 class="hover-text"><b>Security</b></h6>
+                                            <div class="box-content hover-text">
+                                                We have backups and security layout for any issues in consensus protocol such as deadlocks, Dos attack, reentrancy attack.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="box px-md-0 px-2">
+                                        <div class="col-12 box-content-slider">
+                                            <h6 class="hover-text"><b>Full Anonymity</b></h6>
+                                            <div class="box-content hover-text">
+                                                Decentralization and anonymity are our priorities, only users know their identity
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary leftLst">
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                            <button class="btn btn-primary rightLst">
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3 bg-smoke text-white py-5">
+                <div class="community text-dark px-center py-md-5 py-2">
+                    <div class="d-md-flex d-block align-items-center justify-content-between">
+                        <h2 class="col-md-5 pl-0 col-12 fwb center-mb">The Paradefi dApp Interface</h2>
+                        <div class="col-md-5 pl-0 col-12 wrapper-book">
+                            <img src="/images/Mac.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3 text-white py-5"
+                style="background: linear-gradient(0deg, #97def8 0%, #0b67fd 100%);" 
+            >
+                <div class="py-5 px-center">
+                    <!-- <h3 class="title-page3">OUR MISSION</h3> -->
+                    <h3>OUR MISSION</h3>
+                    <h1 class="fwb main-title">The Paradefi Ecosystem</h1>
+
+                    <div class="content-ss3 py-3 opacity-0" id="box-4">
+                        <div class="d-md-flex d-block">
+                            <div class="col-md-5 col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="wrapper-icon-list">
+                                        <img src="/images/logo1.png" alt="" />
+                                    </div>
+                                    <h6 class="hover-text">Decentralized Lend & Borrow</h6>
+                                </div>
+                                <div class="box-content" style="text-align: justify;">
+                                    A pool-based strategy allows people to earn an APY of up to 20% at their fingertips, with the decentralization of full control and non-custodial protocol </div>
+                            </div>
+
+                            <div class="col-md-5 offset-md-2 pt-md-0 pt-5">
+                                <div class="d-flex align-items-center">
+                                    <div class="wrapper-icon-list">
+                                        <img src="/images/logo1.png" alt="" />
+                                    </div>
+                                    <h6 class="hover-text">Fiat Liquidity & Remittance</h6>
+                                </div>
+                                <div class="box-content" style="text-align: justify;">
+                                    Paradefi is the first Defi platform to integrate both fiat on-ramp and off-ramp for fiat liquidity, this is a crucial step to mass adoption of decentralized ecology
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-md-flex d-block pt-5">
+                            <div class="col-md-5 col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="wrapper-icon-list">
+                                        <img src="/images/logo1.png" alt="" />
+                                    </div>
+                                    <h6 class="hover-text">Commission</h6>
+                                </div>
+                                <div class="box-content" style="text-align: justify;">
+                                    Every citizen is a bank teller, a dedicated incentive commission program is designed for the community to spread its scalability by simply introducing the unbanked to join.
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 offset-md-2 col-12 pt-md-0 pt-5">
+                                <div class="d-flex align-items-center">
+                                    <div class="wrapper-icon-list">
+                                        <img src="/images/logo1.png" alt="" />
+                                    </div>
+                                    <h6 class="hover-text">The Paradefi Oracle Network</h6>
+                                </div>
+                                <div class="box-content" style="text-align: justify;">
+                                    The Chainlink Integration to allow Paradefi developers to build secure and reliable smart contract infrastructure in which automated transactions based on real-world events
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section4 bg-smoke py-5">
+                <div class="wrapper-page4 px-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-12">
+                            <div class="title-page4">
+                                The Paradefi
+                            </div>
+                            <div class="title-page4">
+                                Whitepaper
+                            </div>
+                            <div class="py-3 sub-title">
+                                The Paradefi Protocol explanation of the different aspects of the implementation
+                            </div>
+                            <div class="wrapper-btn">
+                                <button class="btn-github btn-hover text-white text-uppercase">
+                                    <a href="https://paradefi.network/Paradefi-Lightpaper.pdf" style="color: #fff;text-decoration: none;">
+                                        Read the whitepaper
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 col-12 pt-md-0 pt-3 offset-md-2">
+                            <div class="wrapper-book">
+                                <img src="/images/Whitepaper3.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-4 text-white" style="background: linear-gradient(0deg, #97def8 0%, #0b67fd 100%);">
+                <div class="px-center">
+                    <div class="team-member main-title pt-3">
+                        <div class="text-center">
+                            <div class="title-role py-3 text-uppercase">
+                                team member
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center py-4">
+                            <div class="col-md-4 col-6 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/Zhang.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Zhang Liao</div>
+                                    <div class="role">Founder</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a href="https://www.linkedin.com/in/prtzhangliao" target="_blank" class="text-white">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/teammember.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Erik Carlson</div>
+
+                                    <div class="role">Blockchain Lead</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a target="_blank" class="text-white" href="https://www.linkedin.com/in/erikcarlsonbtc">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/teammember2.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Shan Wu</div>
+
+                                    <div class="role">CTO</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a target="_blank" class="text-white" href="https://www.linkedin.com/in/shanwuparadefi/">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member pt-3">
+                        <div class="text-center">
+                            <div class="title-role main-title text-uppercase">
+                                Advisory Board
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center py-4">
+                            <div class="col-md-4 col-6">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/CaoZhou1.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Li Wei</div>
+
+                                    <div class="role">Financial Advisor</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a href="" target="_blank" class="text-white">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/WUxitang.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Zhang Yong
+                                    </div>
+
+                                    <div class="role">Defi Product Advisor</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a href="" target="_blank" class="text-white">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/ANR09847.jpg" class="avt" alt="" />
+                                    </div>
+                                    <div class="hover-text">Jeffrey E. Branham </div>
+
+                                    <div class="role">Oracle Advisor</div>
+
+                                    <div class="py-2 linkedIn">
+                                        <a href="" target="_blank" class="text-white">
+                                            <i class="fab fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section5 bg-smoke pb-5">
+                <div class="px-center text-dark">
+                    <div class="team-member pt-3">
+                        <div class="text-center">
+                            <div class="title-role text-uppercase">
+                                Our Partner & Integration Alliance
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center py-4">
+                            <div class="col-md-3 col-6 pt-3">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/InvestCapitalCN.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/ZenChainLab.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/ren.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/Chainlink.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/TrustWallet.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/uniswap.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/Near.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/DiDi.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 pt-3 mx-auto">
+                                <div class="wrapper text-center">
+                                    <div class="circle-avt mx-auto">
+                                        <img src="/images/IndoAlliance.png" class="avt" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <div class="wrapper-footer text-white px-center">
+                <div class="row align-items-center px-lg-1 px-0">
+                    <div class="col-3 col-xs-6">
+                        <div class="left-side">
+                            <a class="d-block" href="https://app.paradefi.network">dApp</a>
+                            <a class="d-block fw-100" href="">Githubs</a>
+                            <a class="d-block fw-100" href="">Smart Contract</a>
+                        </div>
+                    </div>
+                    <div class="col-5 offset-md-1 mx-auto text-center col-xs-6 footer-logo">
+                        <div style="display: flex; align-items: center">
+                            <img class="w-xs-50" src="/images/Whitelogo.png" alt="" style="width: 100px !important" />
+                            <div class="col-md-8 col-12 text-center">
+                                <div class="fwb py-1 font-responsive">The Paradefi Foundation</div>
+                                <div class="fw-100 font-responsive">
+                                    2019-2020 Reserved
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-4 py-config col-xs-12">
+                        <div class="mx-auto">
+                            <h2 class="banner1">PARADEFI FOUNDATION</h1>
+                        </div>
+
+                        <div class="py-md-3 font-responsive py-1 text-md-center">
+                            Join Us On Socials
+                        </div>
+                        <div class="row flex-nowrap justify-content-center">
+                            <div class="px-md-0 mx-0 px-md-1">
+                                <div class="wrapper-social hover-social">
+                                    <a href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="px-md-0 mx-0 px-md-1">
+                                <div class="wrapper-social hover-social">
+                                    <a href="">
+                                        <i class="fab fa-medium-m"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="px-md-0 mx-0 px-md-1">
+                                <div class="wrapper-social hover-social">
+                                    <a href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="px-md-0 pr-md-0 pr-1 mx-0 px-md-1">
+                                <div class="wrapper-social hover-social">
+                                    <a href="">
+                                        <i class="fab fa-discord"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Latest compiled and minified CSS -->
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        document.getElementById("coin-1").innerHTML = "$3.60B";
+        document.getElementById("coin-2").innerHTML = "28.22%";
+
+        var cors_api_url = "https://cors-anywhere.herokuapp.com/";
+
+        function crawlData() {
+            function doCORSRequest(options, printResult) {
+                var x = new XMLHttpRequest();
+                x.open(options.method, cors_api_url + options.url);
+                x.onload = x.onerror = function() {
+                    printResult(
+                        options.method +
+                        " " +
+                        options.url +
+                        "\n" +
+                        x.status +
+                        " " +
+                        x.statusText +
+                        "\n\n" +
+                        (x.responseText || "")
+                    );
+                };
+                if (/^POST/i.test(options.method)) {
+                    x.setRequestHeader(
+                        "Content-Type",
+                        "application/x-www-form-urlencoded"
+                    );
+                }
+                x.send(options.data);
+            }
+
+            doCORSRequest({
+                    method: "GET",
+                    url: "https://defipulse.com",
+                },
+                function printResult(result) {
+                    formatResponse(result);
+                }
+            );
+
+            function formatResponse(htmlResult) {
+                const HTMLClassPosition = htmlResult.search(
+                    "defi-market-box defi-market-total"
+                );
+
+                const htmlPercent = htmlResult.search(
+                    "defi-market-box defi-market-dominance"
+                );
+
+                let newString = htmlResult.slice(HTMLClassPosition);
+                const HTMLSpanStartPosition = newString.search("<span>");
+                const HTMLSpanEndPosition = newString.search("</span>");
+
+                const finalResult = newString.slice(
+                    HTMLSpanStartPosition + 6,
+                    HTMLSpanEndPosition
+                );
+                document.getElementById("coin-1").innerHTML = finalResult;
+
+                let newString2 = htmlResult.slice(htmlPercent);
+
+                const finalResult2 = newString2.slice(
+                    HTMLSpanStartPosition + 9,
+                    HTMLSpanEndPosition + 3
+                );
+
+                document.getElementById("coin-2").innerHTML = finalResult2;
+            }
+        }
+    </script>
+
+    <script src="/main.js"></script>
+
+    <script src="/carousel/carousel.js"></script>
+</body>
+
+</html>

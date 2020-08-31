@@ -1,0 +1,118 @@
+body {
+    background: #fff;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-radian {
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#071021), color-stop(39.58%, #101a24), color-stop(64.06%, #1b0c29), color-stop(98.96%, #000));
+    background-image: -webkit-linear-gradient( #071021, #101a24 39.58%, #1b0c29 64.06%, #000 98.96%);
+    background-image: -o-linear-gradient( #071021 0, #101a24 39.58%, #1b0c29 64.06%, #000 98.96%);
+    background-image: linear-gradient( #071021, #101a24 39.58%, #1b0c29 64.06%, #000 98.96%);
+}
+
+.cl-root {
+    color: #fa5858;
+    ;
+}
+
+.bg-root {
+    background: #327ccb !important;
+}
+
+.bg-blue {
+    background: #08205e;
+    font-family: Rubik;
+}
+
+.bg-none {
+    background: none;
+}
+
+.btn-hover:hover {
+    background: #fa5858 !important;
+}
+
+
+/* hover text */
+
+.hover-text:hover {
+    color: #fa5858 !important;
+    cursor: pointer;
+}
+
+.hover-social:hover {
+    background: #327ccb;
+}
+
+.hover-social:hover>a>i {
+    color: #fff;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+    word-break: break-word !important;
+    text-align: justify !important;
+}
+
+.MultiCarousel .btn-primary {
+    opacity: 0.5;
+}
+.MultiCarousel .btn-primary:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper-logo img {
+        width: auto;
+    }
+    .center-mb{
+        text-align: center;
+    }
+    .col-xs-6 {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+    .col-xs-12 {
+        flex: 1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .text-md-center{
+        text-align: center !important;
+    }
+    .w-xs-50{
+        width: 50px !important;
+    }
+    .col-5.offset-md-1.mx-auto.text-center.col-xs-6.footer-logo{
+        padding: 0 !important;
+        margin: 0 !important;
+        flex: 1 !important;
+    }
+    .circle-avt.mx-auto {
+        display: flex;
+        align-items: center;
+    }
+    .circle-avt.mx-auto img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper-content .row{
+        display: block;
+    }
+    .wrapper-content .row .col-7,
+    .wrapper-content .row .col-5 {
+        width: 100%;
+        max-width: 100%;
+        flex: 1;
+        text-align: center;
+    }
+    .wrapper-content .ds-content {
+        font-size: 20px;
+    }
+}
